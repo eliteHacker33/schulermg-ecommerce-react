@@ -1,0 +1,23 @@
+.div_top_hypers {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.ul_top_hypers li {
+  display: inline;
+
+  /* margin-left: 40px; */
+}
+
+.productItemLink:link,
+.productItemLink:visited {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.productItemLink:hover,
+.productItemLink:active {
+  background-color: rgba(159, 153, 153, 0.591);
+}
