@@ -1,20 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import TopNavbar from "./Components/TopNavBar.js";
-import ProductSaleBar from "./Components/ProductSaleBar";
+import MasterContainer from "./Components/MasterContainer";
 
 function App() {
-  return (
-    <div className="container">
-      <TopNavbar />
-      <ProductSaleBar />
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-      </div>
-    </div>
-  );
+  return <MasterContainer />;
 }
 
 export default App;

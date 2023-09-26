@@ -1,31 +1,31 @@
-import "./ProductSaleBar.css";
+import styles from "./ProductSaleBar.module.css";
 
 const ProductSaleBar = () => {
   return (
-    <div className="div_top_hypers">
-      <ul className="ul_top_hypers">
+    <div className={styles.div_top_hypers}>
+      <ul className={styles.ul_top_hypers}>
         <li>
-          <a className="productItemLink" href="#">
+          <a className={styles.productItemLink} href="#">
             FIREARMS
           </a>
         </li>
         <li>
-          <a className="productItemLink" href="#">
+          <a className={styles.productItemLink} href="#">
             MAGAZINES
           </a>
         </li>
         <li>
-          <a className="productItemLink" href="#">
+          <a className={styles.productItemLink} href="#">
             PARTS
           </a>
         </li>
         <li>
-          <a className="productItemLink" href="#">
+          <a className={styles.productItemLink} href="#">
             PARTS KITS
           </a>
         </li>
         <li>
-          <a className="productItemLink" href="#">
+          <a className={styles.productItemLink} href="#">
             SURPLUS
           </a>
         </li>
