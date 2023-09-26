@@ -1,7 +1,8 @@
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   gap: 10px;
   width: auto;
-  background-color: green;
+  background-color: lightgray;
 }
